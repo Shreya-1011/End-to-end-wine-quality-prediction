@@ -27,7 +27,6 @@ list_of_files = [
     "templates/index.html",
 ]
 
-
 for filepath in list_of_files:
     filepath = Path(filepath)
     filedir, filename = os.path.split(filepath)
@@ -43,3 +42,5 @@ for filepath in list_of_files:
 
     else:
         logging.info(f"{filename} is already exists")
+
+
